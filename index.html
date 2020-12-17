@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Exercicio 08</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body >
+    <h1>Conversão de Temperaturas</h1>
+    <script type="text/javascript" src="main.js">
+    </script>
+    <form   style="border: 1px double blue; background-color: #DDF;
+    padding: 4px;text-align:center;"
+    name="convert">
+
+Fahrenheit: <input  type="text" 
+        name="ftemp" 
+        size="7"
+
+onchange="convertTemp('ftoc')"> é o mesmo que Celsius:
+
+<input  type="text" 
+    name="ctemp" 
+    size="7"
+
+onchange="convertTemp('ctof')">
+
+é o mesmo que  Kelvin:
+
+<input  type="text" 
+    name="ktemp" 
+    size="7"
+
+onchange="convertTemp('ktof')">
+
+<br /><br />
+<input  type="button" 
+    value="limpar" 
+    onclick="clearAll();">
+</form>
+</body>
+</html>
